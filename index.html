@@ -2,30 +2,45 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Watch Video</title>
+
 <style>
-body { margin:0; background:black; text-align:center; }
-video { width:100%; height:100vh; object-fit:cover; }
+body {
+  margin: 0;
+  background: black;
+  text-align: center;
+  overflow: hidden;
+}
+
+video {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
 .btn {
-  position:absolute;
-  bottom:40px;
-  left:50%;
-  transform:translateX(-50%);
-  padding:15px 30px;
-  background:#25D366;
-  color:white;
-  font-size:18px;
-  border-radius:10px;
-  text-decoration:none;
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 15px 30px;
+  background: #25D366;
+  color: white;
+  font-size: 18px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: bold;
 }
 </style>
 </head>
+
 <body>
 
 <video autoplay muted playsinline controls>
-  <source src="video.mp4" type="video/mp4">
+  <source src="testv01.mp4" type="video/mp4">
 </video>
 
-<a class="btn" href="https://wa.me/9539552663">Continue on WhatsApp</a>
+<a class="btn" href="https://wa.me/91YOURNUMBER">Continue on WhatsApp</a>
 
 </body>
 </html>
